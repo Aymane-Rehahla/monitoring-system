@@ -1,0 +1,11 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\sakamoto\Desktop\code\SAFETY_MODULE(ESP32-S3)
+CMake Error at C:/Users/sakamoto/esp/v5.5.1/esp-idf/tools/cmake/project.cmake:703 (if):
+  if given arguments:
+
+    "(" "STREQUAL" "VERSION"
+
+  mismatched parenthesis in condition
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (project)
+
+
